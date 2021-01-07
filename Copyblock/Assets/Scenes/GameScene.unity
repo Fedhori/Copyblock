@@ -849,6 +849,8 @@ MonoBehaviour:
     maxFill: 6
   - map: {fileID: 2800000, guid: 341654720b011ba48b5e50262c75df4a, type: 3}
     maxFill: 6
+  - map: {fileID: 2800000, guid: aded1a48e715edc44a7b7b58f7a5cd07, type: 3}
+    maxFill: 6
   HardNormal:
   - map: {fileID: 2800000, guid: ba248b953f7213c40b006f68fac47577, type: 3}
     maxFill: 7

@@ -21,7 +21,9 @@ public class MainMenuManager : MonoBehaviour {
     void Awake() {
         MMM = this;
 
-        // get the level which player's highest cleared level\\
+        // (test) unlock every level
+        PlayerPrefs.SetInt("highestAccessableLevel", 100);
+        // get the level which player's highest cleared level
         highestAccessableLevel = PlayerPrefs.GetInt("highestAccessableLevel", 0);
 
         for (int i = 0; i < maxLevelNum; i++)
