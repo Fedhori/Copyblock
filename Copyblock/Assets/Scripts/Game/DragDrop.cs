@@ -11,7 +11,7 @@ public class DragDrop : MonoBehaviour
 
     float minMove = 10f;
 
-    bool isDragging = false;
+    public bool isDragging = false;
 
     // Use this for initialization
     void Start () {
